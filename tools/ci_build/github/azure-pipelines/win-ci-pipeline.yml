@@ -19,7 +19,7 @@ jobs:
     buildArch: x64
     setVcvars: true
     ALLOW_RELEASED_ONNX_OPSET_ONLY: '0'
-  timeoutInMinutes: 120
+  timeoutInMinutes: 1200
   workspace:
     clean: all
   steps:    
@@ -177,7 +177,7 @@ jobs:
     setVcvars: true
     BuildConfig: 'RelWithDebInfo'
     ALLOW_RELEASED_ONNX_OPSET_ONLY: '0'
-  timeoutInMinutes: 120
+  timeoutInMinutes: 1200
   workspace:
     clean: all
   steps:    
@@ -312,7 +312,7 @@ jobs:
     setVcvars: true
     BuildConfig: 'RelWithDebInfo'
     ALLOW_RELEASED_ONNX_OPSET_ONLY: '0'
-  timeoutInMinutes: 120
+  timeoutInMinutes: 1200
   workspace:
     clean: all
   steps:    
@@ -435,7 +435,7 @@ jobs:
     setVcvars: true
     BuildConfig: 'RelWithDebInfo'
     ALLOW_RELEASED_ONNX_OPSET_ONLY: '0'
-  timeoutInMinutes: 120
+  timeoutInMinutes: 1200
   workspace:
     clean: all
   steps:    
