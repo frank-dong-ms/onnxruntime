@@ -1,6 +1,6 @@
 jobs:
 - job: 'build'
-  pool: 'Win-CPU-2019'
+  pool: 'PyTorch-Enterprise-Test'
   strategy:
     maxParallel: 2
     matrix:
