@@ -1,4 +1,4 @@
 -r requirements.txt
-git+https://github.com/frankdongms/transformers.git@frdong/shard_llama
+git+https://github.com/frank-dong-ms/transformers.git@frdong/shard_llama
 mpi4py
 psutil
